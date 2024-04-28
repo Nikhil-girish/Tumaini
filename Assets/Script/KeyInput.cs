@@ -6,8 +6,7 @@ using TMPro;
 
 public class KeyInputExample : MonoBehaviour
 {
-    public TextM t;
-    public Text output;
+    public TextMeshProUGUI output;
 
     public void Update()
     {
@@ -15,105 +14,91 @@ public class KeyInputExample : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.A)) || (Input.GetKey(KeyCode.A)))
         {
             Debug.Log("Key Down: " + KeyCode.A);
-            t.text = "Hand Sign A";
-            output.text = t.text;
+            output.text = "Hand Sign A";
         }
 
         if (Input.GetKeyUp(KeyCode.A))
         {
             Debug.Log("Key Up: " + KeyCode.A);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // B
         if ((Input.GetKeyDown(KeyCode.B)) || (Input.GetKey(KeyCode.B)))
         {
             Debug.Log("Key Down: " + KeyCode.B);
-            t.text = "Hand Sign B";
-            output.text = t.text;
+            output.text = "Hand Sign B";
         }
 
         if (Input.GetKeyUp(KeyCode.B))
         {
             Debug.Log("Key Up: " + KeyCode.B);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // C
         if ((Input.GetKeyDown(KeyCode.C)) || (Input.GetKey(KeyCode.C)))
         {
             Debug.Log("Key Down: " + KeyCode.C);
-            t.text = "Hand Sign C";
-            output.text = t.text;
+            output.text = "Hand Sign C";
         }
 
         if (Input.GetKeyUp(KeyCode.C))
         {
             Debug.Log("Key Up: " + KeyCode.C);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // D
         if ((Input.GetKeyDown(KeyCode.D)) || (Input.GetKey(KeyCode.D)))
         {
             Debug.Log("Key Down: " + KeyCode.D);
-            t.text = "Hand Sign D";
-            output.text = t.text;
+            output.text = "Hand Sign D";
         }
 
         if (Input.GetKeyUp(KeyCode.D))
         {
             Debug.Log("Key Up: " + KeyCode.D);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // E
         if ((Input.GetKeyDown(KeyCode.E)) || (Input.GetKey(KeyCode.E)))
         {
             Debug.Log("Key Down: " + KeyCode.E);
-            t.text = "Hand Sign E";
-            output.text = t.text;
+            output.text = "Hand Sign E";
         }
 
         if (Input.GetKeyUp(KeyCode.E))
         {
             Debug.Log("Key Up: " + KeyCode.E);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // F
         if ((Input.GetKeyDown(KeyCode.F)) || (Input.GetKey(KeyCode.F)))
         {
             Debug.Log("Key Down: " + KeyCode.F);
-            t.text = "Hand Sign F";
-            output.text = t.text;
+            output.text = "Hand Sign F";
         }
 
         if (Input.GetKeyUp(KeyCode.F))
         {
             Debug.Log("Key Up: " + KeyCode.F);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // G
         if ((Input.GetKeyDown(KeyCode.G)) || (Input.GetKey(KeyCode.G)))
         {
             Debug.Log("Key Down: " + KeyCode.G);
-            t.text = "Hand Sign G";
-            output.text = t.text;
+            output.text = "Hand Sign G";
         }
 
         if (Input.GetKeyUp(KeyCode.G))
         {
             Debug.Log("Key Up: " + KeyCode.G);
-            t.text = "NO INPUT";
-            output.text = t.text;
+            output.text = "NO INPUT";
         }
 
         // H
